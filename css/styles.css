@@ -14,6 +14,8 @@ a {
     text-decoration: none;
     border-bottom: 2px solid #E6E8E6;
     color: #080708;
+    display: inline-block;
+    margin-top: 1.5rem;
     transition: all 0.5s ease;
 }
 
