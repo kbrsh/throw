@@ -3,9 +3,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header {
-    top: 5%;
-    left: 5%;
-    position: absolute;
+    font-size: 2rem;
 }
 
 p {
