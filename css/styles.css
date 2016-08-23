@@ -2,6 +2,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
 }
 
+#header {
+    top: 5%;
+    left: 5%;
+    position: absolute;
+}
+
 p {
     font-family: "Source Code Pro";
 }
