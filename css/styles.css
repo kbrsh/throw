@@ -6,7 +6,10 @@ p, a {
     font-family: "Source Code Pro";
 }
 
+a {
+    text-decoration: none;
+}
+
 #header {
     font-size: 2rem;
 }
-

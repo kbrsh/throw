@@ -1,0 +1,5 @@
+Platinum Gray: #E6E8E6
+Smoky Black: #080708
+Crayon Blue: #3772FF
+Alizarin Crimson Red: #DF2935
+Sunglow Yellow: #FDCA40
