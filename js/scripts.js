@@ -8,6 +8,9 @@ var init = function() {
 init();
 
 document.getElementById("throw").addEventListener("keyup", function() {
-   this.innerHTML = marka(this.innerHTML);
    window.location.href="/#" + btoa(this.innerHTML);
+});
+
+document.getElementById("throw").addEventListener("blur", function() {
+    this.innerHTML = marka(this.innerHTML);
 });
