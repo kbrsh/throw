@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
 }
 
-p, a {
+p, a, div {
     font-family: "Source Code Pro";
 }
 
@@ -41,4 +41,10 @@ a:hover {
 #throw {
     background: #FFF;
     padding: 3rem;
+    font-size: 1.5rem !important;
+}
+
+#throw:focus {
+    border: none;
+    outline: none;
 }
