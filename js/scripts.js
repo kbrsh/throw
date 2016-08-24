@@ -1,3 +1,6 @@
 document.getElementById("throw").addEventListener("keyup", function() {
-   this.style.color="red" 
+   var words = document.getElementById("throw").split(" ");
+   for(var i = 0; i < words.length; i++) {
+       
+   }
 });
