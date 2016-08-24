@@ -1,5 +1,6 @@
 body {
     color: #080708;
+    background: #E4EFF2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,4 +36,9 @@ a:hover {
 
 #header {
     font-size: 2rem;
+}
+
+#throw {
+    background: #FFF;
+    padding: 3rem;
 }
