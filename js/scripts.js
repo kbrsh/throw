@@ -1,5 +1,5 @@
 var init = function() {
-    document.getElementById("throw").innerHTML = window.location.href.split("/#")[1] ? atob(window.location.href.split("/#")[1]) : "This is your Throw. \nIt is a simple note, that supports basic markdown syntax.\nThe best part? It is all stored in the URL."
+    document.getElementById("throw").innerHTML = window.location.href.split("/#")[1] ? atob(window.location.href.split("/#")[1]) : "This is your Throw. \nIt is a simple note.\nThe best part? It is all stored in the URL."
     window.location.href="/#" + btoa(document.getElementById("throw").innerHTML);
 }
 
@@ -12,5 +12,5 @@ document.getElementById("throw").addEventListener("keyup", function() {
 });
 
 document.getElementById("throw").addEventListener("blur", function() {
-    this.innerHTML = marka(this.innerHTML);
+    this.innerHTML = this.innerHTML;
 });
